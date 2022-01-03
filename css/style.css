@@ -1,0 +1,35 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange_color {
+    color: orange;
+}
+
+.top_banner {
+    background-image: url('../img/images/top-banner.png');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.half_width {
+    flex-basis: 45%;
+    margin: 0 auto;
+}
+
+.half_width a {
+    display: inline-block;
+    background: linear-gradient(rgb(119, 37, 37), rgb(204, 151, 151));
+    padding: 5px 1rem;
+    text-decoration: none;
+    color: #fff;
+}
