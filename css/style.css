@@ -9,26 +9,29 @@
     color: orange;
 }
 
-.top_banner {
-    background-image: url('../img/images/top-banner.png');
+.flexible_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 2rem;
+}
+
+.top_banner {
+    background-image: url('../img/images/top-banner.png');
     background-repeat: no-repeat;
+    padding-top: 2rem;
 }
 
 .dream_big {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-image: url(../img/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-top: 2rem;
 }
 
 .logo img {
-    width: 80%;
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
 }
 
 .half_width h1 {
@@ -50,4 +53,36 @@
     padding: 5px 1rem;
     text-decoration: none;
     color: #fff;
+}
+
+.experience_area {
+    background-image: url(../img/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* padding-top: 2rem; */
+}
+
+.experienc_item {
+    flex-basis: 38%;
+    margin: 0px auto;
+    box-shadow: 10px 10px 40px grey;
+    padding: 2rem;
+    border-left: 5px solid #FF9873;
+    border-left: 7px solid;
+    -o-border-image: linear-gradient(#FF9873, cyan);
+    border-image: linear-gradient(#FF9873, cyan);
+    border-image-slice: 1;
+    margin-bottom: 1rem;
+}
+
+.experienc_item:nth-last-child(1) {
+    border-left: 7px solid;
+    -o-border-image: linear-gradient(blue, cyan);
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    margin-top: 8rem;
+    text-align: center;
 }
